@@ -1,15 +1,59 @@
 <?php include 'includes/header.php'; ?>
 
-<header class="navbar">
-    <div class="logo">FX Panwar</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Courses</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
+<div class="container">
+
+<a class="navbar-brand fw-bold text-warning fs-3" href="#">
+FX Panwar
+</a>
+
+<button class="navbar-toggler" type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link active" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Courses</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+
+<li class="nav-item ms-3">
+
+<a href="payment.php"
+class="btn btn-warning">
+
+Buy Course
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
 
 <section class="hero">
 
