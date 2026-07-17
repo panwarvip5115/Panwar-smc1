@@ -1,1 +1,3 @@
-
+<?php
+echo "Admin Login Page";
+?>
